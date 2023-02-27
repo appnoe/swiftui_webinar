@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF3063B729AD3D0200D93256 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063B629AD3D0200D93256 /* DetailView.swift */; };
 		CF3063B929AD421400D93256 /* TextEntryForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063B829AD421400D93256 /* TextEntryForm.swift */; };
+		CF3063BB29AD46CD00D93256 /* MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063BA29AD46CD00D93256 /* MyTableView.swift */; };
 		CF7D4FA729ACEAF900BC921D /* WebinarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */; };
 		CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA829ACEAF900BC921D /* ContentView.swift */; };
 		CF7D4FAB29ACEAF900BC921D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		CF3063B629AD3D0200D93256 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CF3063B829AD421400D93256 /* TextEntryForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryForm.swift; sourceTree = "<group>"; };
+		CF3063BA29AD46CD00D93256 /* MyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableView.swift; sourceTree = "<group>"; };
 		CF7D4FA329ACEAF900BC921D /* Webinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarApp.swift; sourceTree = "<group>"; };
 		CF7D4FA829ACEAF900BC921D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */,
 				CF7D4FA829ACEAF900BC921D /* ContentView.swift */,
+				CF3063BA29AD46CD00D93256 /* MyTableView.swift */,
 				CF3063B829AD421400D93256 /* TextEntryForm.swift */,
 				CF3063B629AD3D0200D93256 /* DetailView.swift */,
 				CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */,
+				CF3063BB29AD46CD00D93256 /* MyTableView.swift in Sources */,
 				CF3063B929AD421400D93256 /* TextEntryForm.swift in Sources */,
 				CF3063B729AD3D0200D93256 /* DetailView.swift in Sources */,
 				CF7D4FA729ACEAF900BC921D /* WebinarApp.swift in Sources */,

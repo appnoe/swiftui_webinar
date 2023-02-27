@@ -24,7 +24,6 @@ struct TextEntryForm: View {
             Text(displayString(name:name))
             Text(displayString(name:name))
             Text(displayString(name:name))
-            Text(displayString(name:name))
         }
         .padding()
     }
