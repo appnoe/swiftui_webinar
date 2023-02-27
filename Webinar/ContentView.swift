@@ -12,7 +12,9 @@ struct ContentView: View {
         NavigationView {
             Form{
                 Section{
-                    Text("1")
+                    NavigationLink("Details ..."){
+                        DetailView()
+                    }
                     Text("2")
                     Text("3")
                     Text("4")
@@ -35,9 +37,10 @@ struct ContentView: View {
                         .sectionHeaderStyle()
                 }
             }
+            .navigationTitle("Einstellungen")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .navigationTitle("Einstellungen")
-        .navigationBarTitleDisplayMode(.inline)
+
     }
 }
 
