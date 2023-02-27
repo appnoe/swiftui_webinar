@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct MyTableView: View {
+
+    private let fruits = ["Apfel", "Banane", "Tomate", "Erdbeere"]
     
     var body: some View {
         List{
-            ForEach(0..<50) { _ in
-                Text("Text")
+            ForEach(0..<fruits.count) { fruit in
+                Text(fruits[fruit])
             }
         }
     }
