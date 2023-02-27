@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct DetailView: View {
+
+    @State private var counter = 0
+
     var body: some View {
         NavigationView {
-            Text("Details")
-                .navigationTitle("Ich brauche mehr ...")
+            VStack {
+                Text("\(counter)")
+                    .navigationTitle("Ich brauche mehr ...")
+                Button("Increment", action: {
+                    counter = counter + 1
+                })
+            }
         }
     }
 }
