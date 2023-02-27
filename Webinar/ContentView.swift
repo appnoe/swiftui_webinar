@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State private var count = 0
+
     var body: some View {
         NavigationView {
             Form{
@@ -32,8 +35,12 @@ struct ContentView: View {
                 }
 
                 Section{
-                    Text("11")
-                    Text("12")
+                    Picker("Count", selection: $count) {
+                            ForEach(0 ..< 99) {
+                                Text("\($0) bottles")
+                            }
+                        }
+                    Text("\(count)")
                 } header: {
                     Text("Second header")
                         .sectionHeaderStyle()
