@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Form{
-            Group{
+            Section{
                 Text("1")
                 Text("2")
                 Text("3")
@@ -21,10 +21,17 @@ struct ContentView: View {
                 Text("8")
                 Text("9")
                 Text("10")
+            } header: {
+                Text("First header")
+                    .fontWeight(.bold)
             }
-            Group{
+
+            Section{
                 Text("11")
                 Text("12")
+            } header: {
+                Text("Second header")
+                    .fontWeight(.bold)
             }
 
         }
