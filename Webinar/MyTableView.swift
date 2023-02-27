@@ -7,14 +7,26 @@
 
 import SwiftUI
 
+struct Fruit {
+    let name: String
+    let image: String
+    let color: Color
+}
+
 struct MyTableView: View {
 
-    private let fruits = ["Apfel", "Banane", "Tomate", "Erdbeere"]
-    
+    private let fruits = [
+        Fruit(name: "Apfel", image: "🍏", color: .green),
+        Fruit(name: "Banane", image: "🍌", color: .yellow),
+        Fruit(name: "Tomate", image: "🍅", color: .red),
+        Fruit(name: "Erdbeere", image: "🍓", color: .cyan)
+    ]
+
     var body: some View {
-        List{
-            ForEach(0..<fruits.count, id: \.self) { fruit in
-                Text(fruits[fruit])
+        List(fruits, id: \.name){ fruit in
+            HStack{
+                Text(fruit.image)
+                Text(fruit.name).foregroundColor(fruit.color)
             }
         }
     }
