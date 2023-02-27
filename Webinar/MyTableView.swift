@@ -13,7 +13,7 @@ struct MyTableView: View {
     
     var body: some View {
         List{
-            ForEach(0..<fruits.count) { fruit in
+            ForEach(0..<fruits.count, id: \.self) { fruit in
                 Text(fruits[fruit])
             }
         }
