@@ -16,6 +16,15 @@ struct TextEntryForm: View {
             Text(displayString(name:name))
             TextField("Bitte geben Sie hier hren Namen ein", text: $name)
                 .multilineTextAlignment(.center)
+            Text(displayString(name:name))
+            Text(displayString(name:name))
+            Text(displayString(name:name))
+            Text(displayString(name:name))
+            Text(displayString(name:name))
+            Text(displayString(name:name))
+            Text(displayString(name:name))
+            Text(displayString(name:name))
+            Text(displayString(name:name))
         }
         .padding()
     }
