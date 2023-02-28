@@ -33,4 +33,12 @@ struct NavigationCoordinator {
 
     }
 
+    static func animationView() -> some View {
+
+        return NavigationLink("Animation view"){
+            AnimationView()
+        }
+
+    }
+
 }
