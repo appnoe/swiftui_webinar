@@ -27,7 +27,7 @@ struct AnimationView: View {
         .border(.black)
         .clipShape(Rectangle())
         .scaleEffect(scaleFactor)
-        .animation(.default, value: scaleFactor)
+        .animation(.easeInOut(duration: 1.0), value: scaleFactor)
     }
 }
 
