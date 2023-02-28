@@ -30,6 +30,8 @@
 		CF5E293D29AE874900BF1D48 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E293B29AE874900BF1D48 /* CustomView.swift */; };
 		CF5E293F29AEA60500BF1D48 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E293E29AEA60500BF1D48 /* AnimationView.swift */; };
 		CF5E294029AEA60500BF1D48 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E293E29AEA60500BF1D48 /* AnimationView.swift */; };
+		CF5E294229AEADC400BF1D48 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E294129AEADC400BF1D48 /* CircleImage.swift */; };
+		CF5E294329AEADC400BF1D48 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E294129AEADC400BF1D48 /* CircleImage.swift */; };
 		CF7D4FA729ACEAF900BC921D /* WebinarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */; };
 		CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA829ACEAF900BC921D /* ContentView.swift */; };
 		CF7D4FAB29ACEAF900BC921D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */; };
@@ -77,6 +79,7 @@
 		CF5E293829AE824C00BF1D48 /* FruitListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListRow.swift; sourceTree = "<group>"; };
 		CF5E293B29AE874900BF1D48 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		CF5E293E29AEA60500BF1D48 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		CF5E294129AEADC400BF1D48 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		CF7D4FA329ACEAF900BC921D /* Webinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarApp.swift; sourceTree = "<group>"; };
 		CF7D4FA829ACEAF900BC921D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,6 +186,7 @@
 				CF5E292329AE0AE200BF1D48 /* WorkoutView.swift */,
 				CF5E293B29AE874900BF1D48 /* CustomView.swift */,
 				CF5E293E29AEA60500BF1D48 /* AnimationView.swift */,
+				CF5E294129AEADC400BF1D48 /* CircleImage.swift */,
 			);
 			path = Webinar;
 			sourceTree = "<group>";
@@ -332,6 +336,7 @@
 				CF5E294029AEA60500BF1D48 /* AnimationView.swift in Sources */,
 				CF5E293429AE45E500BF1D48 /* APIClient.swift in Sources */,
 				CF5E293A29AE824C00BF1D48 /* FruitListRow.swift in Sources */,
+				CF5E294329AEADC400BF1D48 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +347,7 @@
 				CF5E292829AE0B5000BF1D48 /* Model.swift in Sources */,
 				CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */,
 				CF3063BB29AD46CD00D93256 /* MyTableView.swift in Sources */,
+				CF5E294229AEADC400BF1D48 /* CircleImage.swift in Sources */,
 				CF5E293329AE45E500BF1D48 /* APIClient.swift in Sources */,
 				CF5E293F29AEA60500BF1D48 /* AnimationView.swift in Sources */,
 				CF5E292B29AE0C5700BF1D48 /* WorkoutDashboardView.swift in Sources */,
