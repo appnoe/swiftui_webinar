@@ -21,6 +21,9 @@ struct ContentView: View {
                     NavigationLink("Details ..."){
                         DetailView()
                     }
+                    NavigationLink("Workouts"){
+                        WorkoutDashboardView()
+                    }
                     NavigationLink("Texteingabe"){
                         TextEntryForm()
                     }

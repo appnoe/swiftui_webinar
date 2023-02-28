@@ -12,9 +12,14 @@
 		CF3063BB29AD46CD00D93256 /* MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063BA29AD46CD00D93256 /* MyTableView.swift */; };
 		CF3063C429ADF38F00D93256 /* Webinar-Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF3063C329ADF38F00D93256 /* Webinar-Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CF3063C929ADF38F00D93256 /* Webinar_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063C829ADF38F00D93256 /* Webinar_WatchApp.swift */; };
-		CF3063CB29ADF38F00D93256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063CA29ADF38F00D93256 /* ContentView.swift */; };
+		CF3063CB29ADF38F00D93256 /* WorkoutDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063CA29ADF38F00D93256 /* WorkoutDashboardView.swift */; };
 		CF3063CD29ADF39000D93256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3063CC29ADF39000D93256 /* Assets.xcassets */; };
 		CF3063D029ADF39000D93256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3063CF29ADF39000D93256 /* Preview Assets.xcassets */; };
+		CF5E292429AE0AE200BF1D48 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E292329AE0AE200BF1D48 /* WorkoutView.swift */; };
+		CF5E292529AE0AE200BF1D48 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E292329AE0AE200BF1D48 /* WorkoutView.swift */; };
+		CF5E292829AE0B5000BF1D48 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E292729AE0B5000BF1D48 /* Model.swift */; };
+		CF5E292929AE0B5000BF1D48 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E292729AE0B5000BF1D48 /* Model.swift */; };
+		CF5E292B29AE0C5700BF1D48 /* WorkoutDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063CA29ADF38F00D93256 /* WorkoutDashboardView.swift */; };
 		CF7D4FA729ACEAF900BC921D /* WebinarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */; };
 		CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA829ACEAF900BC921D /* ContentView.swift */; };
 		CF7D4FAB29ACEAF900BC921D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */; };
@@ -52,9 +57,11 @@
 		CF3063BE29ADF38F00D93256 /* Webinar-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webinar-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3063C329ADF38F00D93256 /* Webinar-Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webinar-Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3063C829ADF38F00D93256 /* Webinar_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webinar_WatchApp.swift; sourceTree = "<group>"; };
-		CF3063CA29ADF38F00D93256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF3063CA29ADF38F00D93256 /* WorkoutDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDashboardView.swift; sourceTree = "<group>"; };
 		CF3063CC29ADF39000D93256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF3063CF29ADF39000D93256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF5E292329AE0AE200BF1D48 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		CF5E292729AE0B5000BF1D48 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CF7D4FA329ACEAF900BC921D /* Webinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarApp.swift; sourceTree = "<group>"; };
 		CF7D4FA829ACEAF900BC921D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				CF3063C829ADF38F00D93256 /* Webinar_WatchApp.swift */,
-				CF3063CA29ADF38F00D93256 /* ContentView.swift */,
+				CF3063CA29ADF38F00D93256 /* WorkoutDashboardView.swift */,
 				CF3063CC29ADF39000D93256 /* Assets.xcassets */,
 				CF3063CE29ADF39000D93256 /* Preview Content */,
 			);
@@ -100,9 +107,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CF5E292A29AE0B9700BF1D48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E292729AE0B5000BF1D48 /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		CF7D4F9A29ACEAF900BC921D = {
 			isa = PBXGroup;
 			children = (
+				CF5E292A29AE0B9700BF1D48 /* Model */,
 				CF7D4FA529ACEAF900BC921D /* Webinar */,
 				CF3063C729ADF38F00D93256 /* Webinar-Watch Watch App */,
 				CF7D4FA429ACEAF900BC921D /* Products */,
@@ -130,6 +146,7 @@
 				CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */,
 				CF7D4FAC29ACEAF900BC921D /* Webinar.entitlements */,
 				CF7D4FAD29ACEAF900BC921D /* Preview Content */,
+				CF5E292329AE0AE200BF1D48 /* WorkoutView.swift */,
 			);
 			path = Webinar;
 			sourceTree = "<group>";
@@ -270,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF3063CB29ADF38F00D93256 /* ContentView.swift in Sources */,
+				CF3063CB29ADF38F00D93256 /* WorkoutDashboardView.swift in Sources */,
+				CF5E292529AE0AE200BF1D48 /* WorkoutView.swift in Sources */,
 				CF3063C929ADF38F00D93256 /* Webinar_WatchApp.swift in Sources */,
+				CF5E292929AE0B5000BF1D48 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5E292829AE0B5000BF1D48 /* Model.swift in Sources */,
 				CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */,
 				CF3063BB29AD46CD00D93256 /* MyTableView.swift in Sources */,
+				CF5E292B29AE0C5700BF1D48 /* WorkoutDashboardView.swift in Sources */,
 				CF3063B929AD421400D93256 /* TextEntryForm.swift in Sources */,
 				CF3063B729AD3D0200D93256 /* DetailView.swift in Sources */,
+				CF5E292429AE0AE200BF1D48 /* WorkoutView.swift in Sources */,
 				CF7D4FA729ACEAF900BC921D /* WebinarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
