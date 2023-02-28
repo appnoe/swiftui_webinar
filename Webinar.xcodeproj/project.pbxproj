@@ -26,6 +26,8 @@
 		CF5E293429AE45E500BF1D48 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E293229AE45E500BF1D48 /* APIClient.swift */; };
 		CF5E293929AE824C00BF1D48 /* FruitListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E293829AE824C00BF1D48 /* FruitListRow.swift */; };
 		CF5E293A29AE824C00BF1D48 /* FruitListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E293829AE824C00BF1D48 /* FruitListRow.swift */; };
+		CF5E293C29AE874900BF1D48 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E293B29AE874900BF1D48 /* CustomView.swift */; };
+		CF5E293D29AE874900BF1D48 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E293B29AE874900BF1D48 /* CustomView.swift */; };
 		CF7D4FA729ACEAF900BC921D /* WebinarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */; };
 		CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA829ACEAF900BC921D /* ContentView.swift */; };
 		CF7D4FAB29ACEAF900BC921D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */; };
@@ -71,6 +73,7 @@
 		CF5E292D29AE38D000BF1D48 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
 		CF5E293229AE45E500BF1D48 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		CF5E293829AE824C00BF1D48 /* FruitListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListRow.swift; sourceTree = "<group>"; };
+		CF5E293B29AE874900BF1D48 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		CF7D4FA329ACEAF900BC921D /* Webinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarApp.swift; sourceTree = "<group>"; };
 		CF7D4FA829ACEAF900BC921D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -175,6 +178,7 @@
 				CF7D4FAC29ACEAF900BC921D /* Webinar.entitlements */,
 				CF7D4FAD29ACEAF900BC921D /* Preview Content */,
 				CF5E292329AE0AE200BF1D48 /* WorkoutView.swift */,
+				CF5E293B29AE874900BF1D48 /* CustomView.swift */,
 			);
 			path = Webinar;
 			sourceTree = "<group>";
@@ -316,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF3063CB29ADF38F00D93256 /* WorkoutDashboardView.swift in Sources */,
+				CF5E293D29AE874900BF1D48 /* CustomView.swift in Sources */,
 				CF5E292529AE0AE200BF1D48 /* WorkoutView.swift in Sources */,
 				CF3063C929ADF38F00D93256 /* Webinar_WatchApp.swift in Sources */,
 				CF5E293029AE44E000BF1D48 /* NavigationCoordinator.swift in Sources */,
@@ -338,6 +343,7 @@
 				CF5E292E29AE38D000BF1D48 /* NavigationCoordinator.swift in Sources */,
 				CF3063B929AD421400D93256 /* TextEntryForm.swift in Sources */,
 				CF3063B729AD3D0200D93256 /* DetailView.swift in Sources */,
+				CF5E293C29AE874900BF1D48 /* CustomView.swift in Sources */,
 				CF5E292429AE0AE200BF1D48 /* WorkoutView.swift in Sources */,
 				CF7D4FA729ACEAF900BC921D /* WebinarApp.swift in Sources */,
 			);

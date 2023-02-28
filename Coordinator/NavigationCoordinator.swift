@@ -25,4 +25,12 @@ struct NavigationCoordinator {
 
     }
 
+    static func customView() -> some View {
+
+        return NavigationLink("Custom view"){
+            CustomView()
+        }
+
+    }
+
 }
