@@ -11,6 +11,9 @@ struct ContentView: View {
 
     @State private var count = 0
 
+    private var sizes = [0.3, 0.5, 0.7, 1.0]
+    @State var currentSize = 1.0
+
     var body: some View {
         NavigationView {
             Form{
@@ -21,16 +24,20 @@ struct ContentView: View {
                     NavigationLink("Texteingabe"){
                         TextEntryForm()
                     }
-                    Text("3")
-                    Text("4")
-                    Text("5")
-                    Text("6")
-                    Text("7")
-                    Text("8")
-                    Text("9")
-                    Text("10")
                 } header: {
                     Text("First header")
+                        .sectionHeaderStyle()
+                }
+                Section{
+                    Picker("Größe:", selection: $currentSize) {
+                        ForEach(sizes, id: \.self) {
+                            Text($0, format: .number)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                    Text(String(format: "Size: %.1fl", currentSize))
+                } header: {
+                    Text("Second header")
                         .sectionHeaderStyle()
                 }
 
@@ -42,7 +49,7 @@ struct ContentView: View {
                         }
                     Text("\(count)")
                 } header: {
-                    Text("Second header")
+                    Text("Third header")
                         .sectionHeaderStyle()
                 }
             }
