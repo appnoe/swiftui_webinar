@@ -11,6 +11,7 @@ import SwiftUI
 struct WorkoutDashboardView: View {
 
     var body: some View {
+        #if os(watchOS)
         NavigationView {
             List {
                 ForEach(workouts) { workout in
@@ -20,6 +21,15 @@ struct WorkoutDashboardView: View {
                 }
             }
         }
+        #else
+        List {
+            ForEach(workouts) { workout in
+                NavigationLink(destination: WorkoutSetupView(workout: workout)) {
+                    WorkoutCellView(workout: workout)
+                }
+            }
+        }
+        #endif
     }
 
 }
