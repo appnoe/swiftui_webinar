@@ -24,6 +24,7 @@ struct ContentView: View {
                     NavigationCoordinator.showWorkOuts()
                     NavigationCoordinator.textEntry()
                     NavigationCoordinator.customView()
+                    NavigationCoordinator.transitionView()
                 } header: {
                     Text("First header")
                         .sectionHeaderStyle()

@@ -41,4 +41,12 @@ struct NavigationCoordinator {
 
     }
 
+    static func transitionView() -> some View {
+
+        return NavigationLink("Transition view"){
+            TransitionView()
+        }
+
+    }
+
 }

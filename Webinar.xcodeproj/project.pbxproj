@@ -36,6 +36,7 @@
 		CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA829ACEAF900BC921D /* ContentView.swift */; };
 		CF7D4FAB29ACEAF900BC921D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */; };
 		CF7D4FAF29ACEAF900BC921D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAE29ACEAF900BC921D /* Preview Assets.xcassets */; };
+		CF82B9A329AEB093004A7013 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF82B9A229AEB093004A7013 /* TransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF7D4FAC29ACEAF900BC921D /* Webinar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Webinar.entitlements; sourceTree = "<group>"; };
 		CF7D4FAE29ACEAF900BC921D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF82B9A229AEB093004A7013 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				CF5E293B29AE874900BF1D48 /* CustomView.swift */,
 				CF5E293E29AEA60500BF1D48 /* AnimationView.swift */,
 				CF5E294129AEADC400BF1D48 /* CircleImage.swift */,
+				CF82B9A229AEB093004A7013 /* TransitionView.swift */,
 			);
 			path = Webinar;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				CF5E293F29AEA60500BF1D48 /* AnimationView.swift in Sources */,
 				CF5E292B29AE0C5700BF1D48 /* WorkoutDashboardView.swift in Sources */,
 				CF5E293929AE824C00BF1D48 /* FruitListRow.swift in Sources */,
+				CF82B9A329AEB093004A7013 /* TransitionView.swift in Sources */,
 				CF5E292E29AE38D000BF1D48 /* NavigationCoordinator.swift in Sources */,
 				CF3063B929AD421400D93256 /* TextEntryForm.swift in Sources */,
 				CF3063B729AD3D0200D93256 /* DetailView.swift in Sources */,
