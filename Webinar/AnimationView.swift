@@ -21,11 +21,13 @@ struct AnimationView: View {
             }
             odd = !odd
         }
-        .padding(60)
+        .padding(30)
         .background(.red)
-        .foregroundColor(.white)
-        .clipShape(Circle())
+        .foregroundColor(.black)
+        .border(.black)
+        .clipShape(Rectangle())
         .scaleEffect(scaleFactor)
+        .animation(.default, value: scaleFactor)
     }
 }
 
