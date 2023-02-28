@@ -21,12 +21,8 @@ struct ContentView: View {
                     NavigationLink("Details ..."){
                         DetailView()
                     }
-                    NavigationLink("Workouts"){
-                        WorkoutDashboardView()
-                    }
-                    NavigationLink("Texteingabe"){
-                        TextEntryForm()
-                    }
+                    NavigationCoordinator.showWorkOuts()
+                    NavigationCoordinator.textEntry()
                 } header: {
                     Text("First header")
                         .sectionHeaderStyle()

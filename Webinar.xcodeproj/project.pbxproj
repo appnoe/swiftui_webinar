@@ -20,6 +20,8 @@
 		CF5E292829AE0B5000BF1D48 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E292729AE0B5000BF1D48 /* Model.swift */; };
 		CF5E292929AE0B5000BF1D48 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E292729AE0B5000BF1D48 /* Model.swift */; };
 		CF5E292B29AE0C5700BF1D48 /* WorkoutDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063CA29ADF38F00D93256 /* WorkoutDashboardView.swift */; };
+		CF5E292E29AE38D000BF1D48 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E292D29AE38D000BF1D48 /* NavigationCoordinator.swift */; };
+		CF5E293029AE44E000BF1D48 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E292D29AE38D000BF1D48 /* NavigationCoordinator.swift */; };
 		CF7D4FA729ACEAF900BC921D /* WebinarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */; };
 		CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D4FA829ACEAF900BC921D /* ContentView.swift */; };
 		CF7D4FAB29ACEAF900BC921D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */; };
@@ -62,6 +64,7 @@
 		CF3063CF29ADF39000D93256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF5E292329AE0AE200BF1D48 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		CF5E292729AE0B5000BF1D48 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CF5E292D29AE38D000BF1D48 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
 		CF7D4FA329ACEAF900BC921D /* Webinar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webinar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D4FA629ACEAF900BC921D /* WebinarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarApp.swift; sourceTree = "<group>"; };
 		CF7D4FA829ACEAF900BC921D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,9 +118,18 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		CF5E292C29AE38A900BF1D48 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E292D29AE38D000BF1D48 /* NavigationCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		CF7D4F9A29ACEAF900BC921D = {
 			isa = PBXGroup;
 			children = (
+				CF5E292C29AE38A900BF1D48 /* Coordinator */,
 				CF5E292A29AE0B9700BF1D48 /* Model */,
 				CF7D4FA529ACEAF900BC921D /* Webinar */,
 				CF3063C729ADF38F00D93256 /* Webinar-Watch Watch App */,
@@ -290,6 +302,7 @@
 				CF3063CB29ADF38F00D93256 /* WorkoutDashboardView.swift in Sources */,
 				CF5E292529AE0AE200BF1D48 /* WorkoutView.swift in Sources */,
 				CF3063C929ADF38F00D93256 /* Webinar_WatchApp.swift in Sources */,
+				CF5E293029AE44E000BF1D48 /* NavigationCoordinator.swift in Sources */,
 				CF5E292929AE0B5000BF1D48 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +315,7 @@
 				CF7D4FA929ACEAF900BC921D /* ContentView.swift in Sources */,
 				CF3063BB29AD46CD00D93256 /* MyTableView.swift in Sources */,
 				CF5E292B29AE0C5700BF1D48 /* WorkoutDashboardView.swift in Sources */,
+				CF5E292E29AE38D000BF1D48 /* NavigationCoordinator.swift in Sources */,
 				CF3063B929AD421400D93256 /* TextEntryForm.swift in Sources */,
 				CF3063B729AD3D0200D93256 /* DetailView.swift in Sources */,
 				CF5E292429AE0AE200BF1D48 /* WorkoutView.swift in Sources */,
