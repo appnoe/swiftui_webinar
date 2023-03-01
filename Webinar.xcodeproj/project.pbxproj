@@ -37,6 +37,10 @@
 		CF7D4FAB29ACEAF900BC921D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAA29ACEAF900BC921D /* Assets.xcassets */; };
 		CF7D4FAF29ACEAF900BC921D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D4FAE29ACEAF900BC921D /* Preview Assets.xcassets */; };
 		CF82B9A329AEB093004A7013 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF82B9A229AEB093004A7013 /* TransitionView.swift */; };
+		CFCEACC929AFCE3E0031E46F /* MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063BA29AD46CD00D93256 /* MyTableView.swift */; };
+		CFCEACCA29AFCE610031E46F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063B629AD3D0200D93256 /* DetailView.swift */; };
+		CFCEACCB29AFCE650031E46F /* TextEntryForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3063B829AD421400D93256 /* TextEntryForm.swift */; };
+		CFCEACCC29AFCE740031E46F /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF82B9A229AEB093004A7013 /* TransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -331,13 +335,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF3063CB29ADF38F00D93256 /* WorkoutDashboardView.swift in Sources */,
+				CFCEACCA29AFCE610031E46F /* DetailView.swift in Sources */,
 				CF5E293D29AE874900BF1D48 /* CustomView.swift in Sources */,
+				CFCEACCC29AFCE740031E46F /* TransitionView.swift in Sources */,
 				CF5E292529AE0AE200BF1D48 /* WorkoutView.swift in Sources */,
 				CF3063C929ADF38F00D93256 /* Webinar_WatchApp.swift in Sources */,
 				CF5E293029AE44E000BF1D48 /* NavigationCoordinator.swift in Sources */,
+				CFCEACCB29AFCE650031E46F /* TextEntryForm.swift in Sources */,
 				CF5E292929AE0B5000BF1D48 /* Model.swift in Sources */,
 				CF5E294029AEA60500BF1D48 /* AnimationView.swift in Sources */,
 				CF5E293429AE45E500BF1D48 /* APIClient.swift in Sources */,
+				CFCEACC929AFCE3E0031E46F /* MyTableView.swift in Sources */,
 				CF5E293A29AE824C00BF1D48 /* FruitListRow.swift in Sources */,
 				CF5E294329AEADC400BF1D48 /* CircleImage.swift in Sources */,
 			);
