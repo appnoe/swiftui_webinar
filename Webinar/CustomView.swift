@@ -51,7 +51,7 @@ struct StarView: View {
             path.addLine(to: CGPoint(x: 12.95, y: 11.78))
             path.closeSubpath()
         }
-        .fill(Color.red) // Ändern Sie den Pfadstil, um ihn sichtbar zu machen
+        .fill(Color.green) // Ändern Sie den Pfadstil, um ihn sichtbar zu machen
     }
 }
 

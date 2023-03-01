@@ -15,7 +15,7 @@ struct TransitionView: View {
         VStack {
             if imageIsVisible {
                 CircleImage()
-                    .transition(.scale)
+                    .transition(.opacity)
             }
 
             Button("Push", action: {

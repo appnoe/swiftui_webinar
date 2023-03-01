@@ -112,9 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				CF3063C829ADF38F00D93256 /* Webinar_WatchApp.swift */,
+				CF3063CE29ADF39000D93256 /* Preview Content */,
 				CF3063CA29ADF38F00D93256 /* WorkoutDashboardView.swift */,
 				CF3063CC29ADF39000D93256 /* Assets.xcassets */,
-				CF3063CE29ADF39000D93256 /* Preview Content */,
 			);
 			path = "Webinar-Watch Watch App";
 			sourceTree = "<group>";

@@ -23,11 +23,11 @@ struct AnimationView: View {
         }
         .padding(30)
         .background(.red)
-        .foregroundColor(.black)
+        .foregroundColor(.white)
         .border(.black)
         .clipShape(Rectangle())
         .scaleEffect(scaleFactor)
-        .animation(.easeInOut(duration: 0.1).repeatCount(10),
+        .animation(.easeInOut(duration: 0.5).repeatCount(1),
                    value: scaleFactor)
     }
 }

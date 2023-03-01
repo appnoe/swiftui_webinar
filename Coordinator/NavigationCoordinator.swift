@@ -9,6 +9,14 @@ import SwiftUI
 
 struct NavigationCoordinator {
 
+    static func showDetailView() -> some View {
+
+        return NavigationLink("Show details"){
+            DetailView()
+        }
+
+    }
+
     static func showWorkOuts() -> some View {
 
         return NavigationLink("Workouts"){

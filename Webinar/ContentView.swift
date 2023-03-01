@@ -17,10 +17,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form{
-                Section{
-                    NavigationLink("Details ..."){
-                        DetailView()
-                    }
+                Section {
+                    NavigationCoordinator.showDetailView()
                     NavigationCoordinator.showWorkOuts()
                     NavigationCoordinator.textEntry()
                     NavigationCoordinator.customView()
@@ -47,7 +45,7 @@ struct ContentView: View {
                             ForEach(0 ..< 99) {
                                 Text("\($0) bottles")
                             }
-                        }
+                    }
                     Text("\(count)")
                 } header: {
                     Text("Third header")
