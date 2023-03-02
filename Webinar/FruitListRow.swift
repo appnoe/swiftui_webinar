@@ -12,12 +12,15 @@ struct FruitListRow: View {
     let fruit : Fruit
 
     var body: some View {
-        HStack{
-            Text(fruit.icon)
-                .frame(alignment: .leading)
-            Text(fruit.name).foregroundColor(fruit.color)
-            Text(fruit.price)
-                .frame(maxWidth: .infinity, alignment: .trailing)
+        ZStack {
+            Color(.green)
+            HStack{
+                Text(fruit.icon)
+                    .frame(alignment: .leading)
+                Text(fruit.name).foregroundColor(fruit.color)
+                Text(fruit.price)
+                    .frame(maxWidth: .infinity, alignment: .trailing)
+            }.background(Color.red)
         }
     }
     
